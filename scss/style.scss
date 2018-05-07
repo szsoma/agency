@@ -130,7 +130,7 @@ body {
 
 .tabcontent {
     display: none;
-    padding: 50px;
+    padding: 5rem;
     transition: 0.5s ease;
 }
 
@@ -146,7 +146,7 @@ body {
     width: 100%;
     background-color: #f6f7fb;
     transform: skewY(-1deg);
-    height: 1450px;
+    height: 1520px;
     margin-top: -170px;
     margin-right: 0;
     margin-left: 0;
@@ -222,7 +222,6 @@ body {
     border-radius: 10px;
     background-color: #ffffff;
     box-shadow: 0px 3px 5px 0px rgba(0,0,0,.14);
-    height: 480px;
     transition: 0.5s ease;
     &:hover {
         box-shadow: 0px 3px 50px 10px rgba(0,0,0,0.05);
@@ -348,7 +347,7 @@ body {
 
     .skewed-bg {
         margin-top: -190px;
-        height: 1700px;
+        height: 1740px;
     }
 
     .team-bg {
@@ -367,12 +366,20 @@ body {
         margin-top: 0;
     }
 
+    .banner-text {
+        text-align: left;
+    }
+    
     .skewed-bg {
         margin-top: -170px;
         height: 630px;
     }
     .advantages {
         margin-top: 3rem;
+    }
+
+    .thumbnail {
+        height: 400px;
     }
 
     .team-bg {
@@ -387,8 +394,6 @@ body {
     html {
         font-size: 10px;
     }
-
-
 
     .banner {
         margin-top: 8rem;
@@ -408,6 +413,10 @@ body {
     }
     .advantages {
         margin-top: 4rem;
+    }
+
+    .thumbnail {
+        height: 480px;
     }
 
     .team-bg {
